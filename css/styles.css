@@ -9,7 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #ffffff;
+  background: linear-gradient(135deg, #e4916b, #ecebe7);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -22,8 +22,8 @@ body {
   height: 36rem;
   display: grid;
   border-radius: 1rem;
-  box-shadow: 4px 4px 2px #cfdbdb;
-  background-image: linear-gradient(135deg, #2bc0e4, #eaecc6);
+  box-shadow: 3px 3px 2px #e6b498;
+  background-image: linear-gradient(135deg, #d8a7e4, #43bbda);
 }
 
 .card {
@@ -37,11 +37,25 @@ body {
   width: 24rem;
   height: 24rem;
   border-radius: 1rem;
-  box-shadow: 1px 1px #2e7272;
+  box-shadow: -1px 1px #2e7272;
 }
 .card h2 {
   font-weight: 900;
 }
 .card span {
   font-weight: 700;
+}
+
+@media (max-width: 40rem) {
+  .container {
+    width: 26rem;
+    height: 26rem;
+  }
+  .card img {
+    width: 20rem;
+    height: 20rem;
+  }
+  .card h2 {
+    font-weight: 400;
+  }
 }
