@@ -6,7 +6,7 @@ async function fetchPicsumPhotos() {
   try {
     const response = await fetch(baseURL);
     const photos = await response.json();
-    const RandomPhoto = await photos
+    photos
       .filter((photo, index) => index === Math.floor(Math.random() * 100))
       .forEach((photo) => {
         const photoUI = `
