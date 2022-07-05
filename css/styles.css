@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 36rem;
+  height: 36rem;
+  display: grid;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 2px #cfdbdb;
+  background-image: linear-gradient(135deg, #2bc0e4, #eaecc6);
+}
+
+.card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card img {
+  width: 24rem;
+  height: 24rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px #2e7272;
+}
+.card h2 {
+  font-weight: 900;
+}
+.card span {
+  font-weight: 700;
+}
