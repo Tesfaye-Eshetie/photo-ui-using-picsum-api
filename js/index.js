@@ -18,5 +18,7 @@ const fetchPicsumPhotos = async () => {
     console.log(error.message);
   }
 };
+// render on initial load
 window.addEventListener('load', fetchPicsumPhotos);
+// rerender on every click
 Button.addEventListener('click', fetchPicsumPhotos);

@@ -41,10 +41,12 @@ body {
   border-radius: 1rem;
   box-shadow: -1px 1px #2e7272;
   margin: 2rem;
+  object-fit: cover;
 }
 .card h2 {
   font-weight: 900;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .card span {
   font-weight: 700;
